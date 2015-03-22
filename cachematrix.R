@@ -1,11 +1,10 @@
-## Programming Assignment 2 :
+## Programming Assignment 2 : Dated 22/03/2015 
 ## Function to create a special "Matrix" Object that can cache its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
 
     m <- NULL
     set <- function(y) {
-        
 ## Assignment operator to store the values in x and m        
         x <<- y
         m <<- NULL
@@ -18,9 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
         set_inverse = set_inverse,
         get_inverse = get_inverse)
     
-    
 }
-
 
 ## Compute the inverse of the special "Matrix" returned by makeCacheMatrix above. 
 ## If the inverse has already been calculated (and the matrix hasnt changed), then 
